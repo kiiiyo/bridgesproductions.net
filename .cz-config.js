@@ -1,94 +1,84 @@
-'use strict';
+'use strict'
 module.exports = {
   types: [
     {
-      value: 'feat',
-      name: 'feat:     新機能',
+      value: ':sparkles: feat',
+      name: 'feat: 新機能',
       title: 'Features'
     },
     {
-      value: 'fix',
-      name: 'fix:      バグ修正',
+      value: ':bug: fix',
+      name: 'fix: バグ修正',
       title: 'Bug Fixes'
     },
     {
-      value: 'hotfix',
-      name: 'hotfix:   致命的で緊急なバグ修正',
+      value: ':ambulance: hotfix',
+      name: 'hotfix: 致命的で緊急なバグ修正',
       title: 'Critical hotfix'
     },
     {
-      value: 'ui',
-      name: 'ui:       UIやスタイルの更新',
+      value: ':lipstick: ui',
+      name: 'ui: UIやスタイルの更新',
       title: 'UI'
     },
     {
-      value: 'docs',
-      name: 'docs:     ドキュメントのみの変更',
+      value: ':memo: docs',
+      name: 'docs: ドキュメントのみの変更',
       title: 'Documentation'
     },
     {
-      value: 'style',
-      name: 'style:    フォーマットの変更\n            （コードの動作に影響しないスペース、フォーマット、セミコロンなどの変更）',
+      value: ':art: style',
+      name: 'style: フォーマットの変更\n（コードの動作に影響しないスペース、フォーマット、セミコロンなどの変更）',
       title: 'Styles'
     },
     {
-      value: 'texts',
-      name: 'texts:    文字や文章の更新',
+      value: ':speech_balloon: texts',
+      name: 'texts: 文字や文章の更新',
       title: 'Text and literals'
     },
     {
-      value: 'i18n',
-      name: 'i18n:     国際化',
-      title: 'Internationalization'
-    },
-    {
-      value: 'typo',
-      name: 'typo:     タイプミスの修正',
+      value: ':pencil2: typo',
+      name: 'typo: タイプミスの修正',
       title: 'Typos'
     },
     {
-      value: 'refactor',
-      name: 'refactor: リファクタリングのための変更\n            （機能追加やバグ修正を含まない変更）',
+      value: ':recycle: refactor',
+      name: 'refactor: リファクタリングのための変更\n（機能追加やバグ修正を含まない変更）',
       title: 'Code Refactoring'
     },
     {
-      value: 'perf',
-      name: 'perf:     パフォーマンスの改善のための変更',
+      value: ':zap: perf',
+      name: 'perf: パフォーマンスの改善のための変更',
       title: 'Performance Improvements'
     },
     {
-      value: 'ux',
-      name: 'ux:       ユーザーエクスペリエンス/ユーザビリティの改善',
-      title: 'UX'
-    },
-    {
-      value: 'test',
-      name: 'test:     不足テストの追加や既存テストの修正',
+      value: ':white_check_mark: test',
+      name: 'test: 不足テストの追加や既存テストの修正',
       title: 'Tests'
     },
     {
-      value: 'config',
-      name: 'config:   設定の追加や変更',
+      value: ':wrench: config',
+      name: 'config: 設定の追加や変更',
       title: 'Configuration'
     },
     {
-      value: 'build',
-      name: 'build:    ビルドシステムや外部依存に関する変更\n           （スコープ例: gulp, broccoli, npm）',
+      value: ':building_construction: build',
+      name: 'build: ビルドシステムや外部依存に関する変更\n（スコープ例: gulp, broccoli, npm）',
       title: 'Builds'
     },
     {
-      value: 'ci',
-      name: 'ci:       CI用の設定やスクリプトに関する変更\n           （スコープ例:Travis, Circle, BrowserStack, SauceLabs)',
+      value: ':green_heart: ci',
+      name: 'ci: CI用の設定やスクリプトに関する変更\n（スコープ例:Travis, Circle, BrowserStack, SauceLabs)',
       title: 'CI'
     },
     {
-      value: 'chore',
-      name: 'chore:    その他の変更\n           （補助ツール、ドキュメント生成などのソースやテストの変更を含まない変更）',
+      value: ':adhesive_bandage: chore',
+      name: 'chore: その他の変更\n（補助ツール、ドキュメント生成などのソースやテストの変更を含まない変更）',
       title: 'Chores'
     },
     {
-      value: 'WIP',
-      name: 'WIP:      作業中',
+      value: ':construction: wip',
+      name: 'wip: 作業中',
       title: 'WIP'
     }
   ],
@@ -114,7 +104,8 @@ module.exports = {
     type: 'コミットする変更タイプを選択:\n',
     scope: '変更内容のスコープ(例:コンポーネントやファイル名)(optional):\n',
     // used if allowCustomScopes is true
-    customScope: '変更内容のスコープ(例:コンポーネントやファイル名)(optional):\n',
+    customScope:
+      '変更内容のスコープ(例:コンポーネントやファイル名)(optional):\n',
     subject: '変更内容を要約した本質的説明:\n',
     body: '変更内容の詳細（"|"で改行）(optional):\n',
     breaking: '破壊的変更についての記述(optional):\n',
@@ -123,4 +114,4 @@ module.exports = {
   },
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix']
-};
+}
