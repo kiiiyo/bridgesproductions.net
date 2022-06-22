@@ -2,24 +2,29 @@
 module.exports = {
   types: [
     {
-      value: ':sparkles: feat',
+      value: 'feat',
       name: 'feat: 新機能',
       title: 'Features'
     },
     {
-      value: ':bug: fix',
+      value: 'fix',
       name: 'fix: バグ修正',
       title: 'Bug Fixes'
     },
     {
-      value: ':ambulance: hotfix',
+      value: 'hotfix',
       name: 'hotfix: 致命的で緊急なバグ修正',
       title: 'Critical hotfix'
     },
     {
-      value: ':lipstick: ui',
+      value: 'ui',
       name: 'ui: UIやスタイルの更新',
       title: 'UI'
+    },
+    {
+      value: 'ux',
+      name: 'ux: ユーザーエクスペリエンス/ユーザビリティの改善',
+      title: 'UX'
     },
     {
       value: ':memo: docs',
