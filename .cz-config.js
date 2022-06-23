@@ -27,62 +27,62 @@ module.exports = {
       title: 'UX'
     },
     {
-      value: ':memo: docs',
+      value: 'docs',
       name: 'docs: ドキュメントのみの変更',
       title: 'Documentation'
     },
     {
-      value: ':art: style',
+      value: 'style',
       name: 'style: フォーマットの変更\n（コードの動作に影響しないスペース、フォーマット、セミコロンなどの変更）',
       title: 'Styles'
     },
     {
-      value: ':speech_balloon: texts',
+      value: 'texts',
       name: 'texts: 文字や文章の更新',
       title: 'Text and literals'
     },
     {
-      value: ':pencil2: typo',
+      value: 'typo',
       name: 'typo: タイプミスの修正',
       title: 'Typos'
     },
     {
-      value: ':recycle: refactor',
+      value: 'refactor',
       name: 'refactor: リファクタリングのための変更\n（機能追加やバグ修正を含まない変更）',
       title: 'Code Refactoring'
     },
     {
-      value: ':zap: perf',
+      value: 'perf',
       name: 'perf: パフォーマンスの改善のための変更',
       title: 'Performance Improvements'
     },
     {
-      value: ':white_check_mark: test',
+      value: 'test',
       name: 'test: 不足テストの追加や既存テストの修正',
       title: 'Tests'
     },
     {
-      value: ':wrench: config',
+      value: 'config',
       name: 'config: 設定の追加や変更',
       title: 'Configuration'
     },
     {
-      value: ':building_construction: build',
+      value: 'build',
       name: 'build: ビルドシステムや外部依存に関する変更\n（スコープ例: gulp, broccoli, npm）',
       title: 'Builds'
     },
     {
-      value: ':green_heart: ci',
+      value: 'ci',
       name: 'ci: CI用の設定やスクリプトに関する変更\n（スコープ例:Travis, Circle, BrowserStack, SauceLabs)',
       title: 'CI'
     },
     {
-      value: ':adhesive_bandage: chore',
+      value: 'chore',
       name: 'chore: その他の変更\n（補助ツール、ドキュメント生成などのソースやテストの変更を含まない変更）',
       title: 'Chores'
     },
     {
-      value: ':construction: wip',
+      value: 'wip',
       name: 'wip: 作業中',
       title: 'WIP'
     }
