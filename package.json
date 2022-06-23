@@ -1,0 +1,34 @@
+{
+  "name": "bridges-productions",
+  "version": "0.0.0",
+  "description": "bridges productions website",
+  "author": "kiiiyo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "prettier": "^2.7.1",
+    "vite": "^2.9.12"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint -c .eslintrc.js --fix",
+      "stylelint -s css-in-js --cache --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
