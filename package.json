@@ -9,9 +9,12 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "firebase deploy",
+    "login": "firebase login"
   },
   "dependencies": {
+    "firebase": "^9.8.4",
     "solid-js": "^1.4.4",
     "solid-meta": "^0.27.5",
     "solid-utils": "^0.8.1"
@@ -22,6 +25,7 @@
     "babel-preset-solid": "^1.4.4",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
+    "firebase-tools": "^11.2.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.2",
     "prettier": "^2.7.1",
