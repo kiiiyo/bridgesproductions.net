@@ -3,6 +3,9 @@ import solidPlugin from 'vite-plugin-solid'
 
 export default defineConfig({
   plugins: [solidPlugin()],
+  server: {
+    port: 8080
+  },
   build: {
     outDir: 'public',
     polyfillDynamicImport: false,
