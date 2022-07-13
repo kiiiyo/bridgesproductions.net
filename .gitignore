@@ -8,6 +8,8 @@
 
 # production
 /build
+/public
+/.firebase
 
 # misc
 .DS_Store
@@ -26,9 +28,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-# firebase
-/.firebase
-
-# public
-/public

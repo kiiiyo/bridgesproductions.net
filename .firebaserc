@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bridges-productions"
-  }
+    "default": "bridges-productions",
+    "production": "bridges-productions"
+  },
+  "targets": {}
 }
