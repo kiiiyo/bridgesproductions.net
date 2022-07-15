@@ -1,3 +1,9 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "$(capture).spec.ts, $(capture).spec.tsx, $(capture).test.ts, $(capture).test.tsx",
+    "*.tsx": "$(capture).spec.tsx, $(capture).test.tsx, $(capture).style.tsx, $(capture).stories.tsx"
+  }
 }
