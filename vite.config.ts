@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
+import path from 'path'
 
 export default defineConfig({
   plugins: [solidPlugin()],
@@ -8,7 +9,13 @@ export default defineConfig({
   },
   build: {
     outDir: 'public',
+    assetsDir: 'assets',
     polyfillDynamicImport: false,
     target: 'esnext'
+  },
+  resolve: {
+    alias: {
+      '@/': path.join(__dirname, 'src/')
+    }
   }
 })
