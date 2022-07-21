@@ -1,14 +1,25 @@
 import logo from '@/assets/logo.svg'
+import {
+  headerContainer,
+  headerInner,
+  headerLogo,
+  headerLogoInner,
+  headerLogoImage
+} from './header.component.style'
 
 export const Header = () => {
   return (
     <header>
-      <nav class="w-ful">
-        <div class="container mx-auto">
-          <div class="flex  h-20 justify-between items-center">
+      <nav class={headerContainer}>
+        <div class={headerInner}>
+          <div class={headerLogo}>
             <a href="/">
-              <span class="block w-48">
-                <img class="w-full" src={logo} alt="BRIDGES PRODUCTIONS" />
+              <span class={headerLogoInner}>
+                <img
+                  class={headerLogoImage}
+                  src={logo}
+                  alt="BRIDGES PRODUCTIONS"
+                />
               </span>
             </a>
           </div>
