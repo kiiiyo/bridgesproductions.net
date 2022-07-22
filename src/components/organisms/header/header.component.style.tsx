@@ -11,7 +11,7 @@ import {
 
 export const headerContainer = classnames(width('w-full'))
 
-export const headerInner = classnames(container(), margin('mx-auto'))
+export const headerInner = classnames(container('container'), margin('mx-auto'))
 
 export const headerLogo = classnames(
   display('flex'),
