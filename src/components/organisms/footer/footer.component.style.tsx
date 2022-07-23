@@ -4,9 +4,6 @@ import {
   width,
   container,
   display,
-  height,
-  justifyContent,
-  alignItems,
   textAlign,
   textColor
 } from 'tailwindcss-classnames'
