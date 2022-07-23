@@ -1,22 +1,35 @@
 import logo from '@/assets/logo.svg'
 
+import {
+  footerContainer,
+  footerInner,
+  footerLogoContainer,
+  footerLogo,
+  footerLogoImage,
+  footerCopyrightContainer
+} from './footer.component.style'
+
 export const Footer = () => {
   return (
     <footer>
-      <div class="w-ful">
-        <div class="container mx-auto">
+      <div class={footerContainer}>
+        <div class={footerInner}>
           <div class="flex h-20 justify-center md:justify-between items-center">
-            <div class="hidden md:block">
+            <div class={footerLogoContainer}>
               <a href="/">
-                <span class="block w-32">
-                  <img class="w-full" src={logo} alt="BRIDGES PRODUCTIONS" />
+                <span class={footerLogo}>
+                  <img
+                    class={footerLogoImage}
+                    src={logo}
+                    alt="BRIDGES PRODUCTIONS"
+                  />
                 </span>
               </a>
             </div>
-            <small class="block text-center md:text-left text-white">
+            <small class={footerCopyrightContainer}>
               <span>&copy;</span>
-              <span id="currentYear">2022</span>{' '}
-              <a href="/">BRIDGES PRODUCTIONS</a>{' '}
+              <span>2022</span>
+              <a href="/">BRIDGES PRODUCTIONS</a>
               <span>All Rights Reserved.</span>
             </small>
           </div>
