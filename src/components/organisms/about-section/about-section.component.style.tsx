@@ -9,7 +9,8 @@ import {
   display,
   justifyContent,
   width,
-  maxWidth
+  maxWidth,
+  lineHeight
 } from 'tailwindcss-classnames'
 
 export const sectionContainer = classnames()
@@ -50,4 +51,7 @@ export const listItemTitle = classnames(
   margin('mb-2', 'md:mb-0')
 )
 
-export const listItemDescription = classnames(textColor('text-white'))
+export const listItemDescription = classnames(
+  textColor('text-white'),
+  lineHeight('leading-8')
+)

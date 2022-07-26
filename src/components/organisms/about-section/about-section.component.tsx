@@ -41,7 +41,7 @@ export const AboutSection = () => {
                 <div class={listItemDescription}>
                   <ul>
                     <li>デジタルプロダクトのプロジェクト推進支援</li>
-                    <li>デジタルプロダクト構築・設計・運営支援</li>
+                    <li>デジタルプロダクトの構築・設計・運営支援</li>
                     <li>ユーザーエクスペリエンスデザイン</li>
                     <li>ユーザーインタフェースデザイン</li>
                     <li>各種コンサルティング業務</li>
