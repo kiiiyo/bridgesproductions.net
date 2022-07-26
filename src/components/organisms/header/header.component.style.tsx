@@ -2,16 +2,21 @@ import {
   classnames,
   margin,
   width,
-  container,
+  maxWidth,
   display,
   height,
   justifyContent,
-  alignItems
+  alignItems,
+  padding
 } from 'tailwindcss-classnames'
 
 export const headerContainer = classnames(width('w-full'))
 
-export const headerInner = classnames(container('container'), margin('mx-auto'))
+export const headerInner = classnames(
+  maxWidth('max-w-4xl'),
+  margin('mx-auto'),
+  padding('px-6')
+)
 
 export const headerLogo = classnames(
   display('flex'),
@@ -20,6 +25,9 @@ export const headerLogo = classnames(
   alignItems('items-center')
 )
 
-export const headerLogoInner = classnames(display('block'), width('w-48'))
+export const headerLogoInner = classnames(
+  display('block'),
+  width('w-40', 'md:w-48')
+)
 
 export const headerLogoImage = classnames(width('w-full'))

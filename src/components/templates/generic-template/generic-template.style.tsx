@@ -4,7 +4,6 @@ import {
   overflow,
   flexDirection,
   minHeight,
-  margin,
   padding
 } from 'tailwindcss-classnames'
 
@@ -15,4 +14,4 @@ export const mainContainer = classnames(
   minHeight('min-h-full')
 )
 
-export const mainInner = classnames(padding('py-8'))
+export const mainInner = classnames(padding('py-2', 'md:py-8'))
