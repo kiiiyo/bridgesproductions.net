@@ -1,3 +1,5 @@
+import { mainContainer, mainInner } from './generic-template.style'
+
 export type Props = {
   header?: any
   footer?: any
@@ -6,10 +8,10 @@ export type Props = {
 
 export const GenericTemplate = ({ header, footer, content }: Props) => {
   return (
-    <div class="flex overflow-hidden flex-col min-h-screen">
+    <div class={mainContainer}>
       {header}
       <main>
-        <div class="mt-20 bg-gray-100 md:mt-32">{content}</div>
+        <div class={mainInner}>{content}</div>
       </main>
       {footer}
     </div>
