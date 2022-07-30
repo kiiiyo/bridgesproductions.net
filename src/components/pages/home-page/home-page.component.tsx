@@ -8,6 +8,7 @@ export const HomePage = ({}: Props) => {
       header={<Organisms.Header />}
       content={
         <>
+          <Organisms.HeroSection />
           <Organisms.AboutSection />
         </>
       }

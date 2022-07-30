@@ -34,7 +34,7 @@ export const AboutSection = () => {
               </div>
               <div class={listItem}>
                 <div class={listItemTitle}>代表</div>
-                <div class={listItemDescription}>清田 隆志</div>
+                <div class={listItemDescription}>TAKASHI KIYOTA</div>
               </div>
               <div class={listItem}>
                 <div class={listItemTitle}>事業内容</div>
