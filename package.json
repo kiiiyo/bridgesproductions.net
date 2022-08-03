@@ -18,7 +18,9 @@
     "solid-js": "^1.4.4",
     "solid-meta": "^0.27.5",
     "solid-utils": "^0.8.1",
-    "tailwindcss-classnames": "^3.0.5"
+    "tailwindcss-classnames": "^3.0.5",
+    "typed.js": "^2.0.12",
+    "vanta": "^0.5.22"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.29.0",
