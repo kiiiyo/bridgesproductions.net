@@ -10,7 +10,10 @@ import {
   justifyContent,
   width,
   maxWidth,
-  lineHeight
+  lineHeight,
+  borderStyle,
+  borderWidth,
+  borderColor
 } from 'tailwindcss-classnames'
 
 export const sectionContainer = classnames()
@@ -36,9 +39,16 @@ export const sectionBody = classnames()
  * List Style
  */
 
-export const listContainer = classnames()
+export const listContainer = classnames(
+  borderStyle('border-dotted'),
+  borderWidth('border-b-2'),
+  borderColor('border-gray-500')
+)
 
 export const listItem = classnames(
+  borderStyle('border-dotted'),
+  borderWidth('border-t-2'),
+  borderColor('border-gray-500'),
   display('block', 'md:flex'),
   padding('py-4', 'md:py-6'),
   justifyContent('md:justify-start')
