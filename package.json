@@ -19,10 +19,10 @@
     "solid-meta": "^0.27.5",
     "solid-utils": "^0.8.1",
     "tailwindcss-classnames": "^3.0.5",
-    "typed.js": "^2.0.12",
-    "vanta": "^0.5.22"
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
+    "@types/typed.js": "^2.0.9",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "autoprefixer": "^10.4.7",
