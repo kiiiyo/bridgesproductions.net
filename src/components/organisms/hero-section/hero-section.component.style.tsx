@@ -6,7 +6,10 @@ import {
   fontWeight,
   fontSize,
   textColor,
-  maxWidth
+  maxWidth,
+  alignItems,
+  display,
+  justifyContent
 } from 'tailwindcss-classnames'
 
 export const sectionContainer = classnames()
@@ -20,7 +23,10 @@ export const sectionInner = classnames(
 export const sectionHeader = classnames(margin('mb-8', 'md:mb-16'))
 
 export const sectionHeaderTitle = classnames(
-  margin('mt-2'),
+  display('flex'),
+  alignItems('items-center'),
+  justifyContent('justify-center'),
+  margin('mt-4'),
   textColor('text-white'),
   fontSize('text-5xl', 'md:!text-8xl'),
   textAlign('text-center'),
